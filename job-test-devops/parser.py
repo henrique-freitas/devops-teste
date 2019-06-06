@@ -8,7 +8,7 @@ def func1():
         writer.writerow(['TimeMillis', 'thread', 'level', 'loggerName','marker', 'message', 'endOfBatch', 'parameterCount', 'loggerFqcn', 'formattedMessage', 'threadPriority', 'threadId', 'contextMap', 'hashcode', 'internal_className', 'internal_content:', 'stateMapping', 'clientId', 'shipmentOrde', 'externalCode', 'alteredEventDate', 'deliveryMethod', 'substatus', 'invoiceKey', 'ruleActionType', 'trackingCode', 'messageParams', 'logisticProviderId', 'invoiceSeries', 'invoiceNumber', 'ruleName', 'shipmentOrderNumber', 'shipmentOrderVolumeHistoryId', 'ruleId', 'status', 'microStateId', 'eventDate', 'internal_date', 'internal_logger', 'logisticProviderId', 'shipmentOrderId'])
         writer.writerows(reader)
 func1()
-print 'Json Log Gerado'
+print ('Log json gerado')
 
 def func2():
     with open('file.log', 'r') as logfile, open('file.csv', 'w') as csvfile:
@@ -17,4 +17,4 @@ def func2():
         writer.writerow(['Date', 'Id', 'scheduled-executor', 'INFO', 'TrackingRuleEngineAndServiceImpl'])
         writer.writerows(reader)
 func2()
-print 'File Log Gerado'
+print ('Log json gerado')
