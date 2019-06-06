@@ -17,4 +17,4 @@ def func2():
         writer.writerow(['Date', 'Id', 'scheduled-executor', 'INFO', 'TrackingRuleEngineAndServiceImpl'])
         writer.writerows(reader)
 func2()
-print ('Log json gerado')
+print ('Log file gerado')
