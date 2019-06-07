@@ -3,3 +3,5 @@ services:
     main:
         build: .
         command: python parser.py
+        volumes:
+            - .:/app
