@@ -4,4 +4,4 @@ services:
         build: .
         command: python parser.py
         volumes:
-            - .:/log
+            - .:/app
